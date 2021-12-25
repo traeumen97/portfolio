@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.wrap {
+    width: 90%;
+    margin: 0 auto;
+    
+}
+
+header {
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-between;
+}
+
+
+header .nav-area, 
+header .service-area ul  {
+    display: flex;
+}
+
+header .service-area ul {
+    align-items: center;
+}
+
+header .nav-area {
+    align-items: center;
+}
+
+.service-area {
+    align-items: center;
+}
+
+header img {
+    width: 40px;
+    height: auto;
+    margin-right: 25px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
