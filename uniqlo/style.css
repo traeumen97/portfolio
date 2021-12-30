@@ -10,41 +10,29 @@
     margin: 0 auto;
     
 }
-
 header {
     display: flex;
-    margin-top: 40px;
     justify-content: space-between;
 }
-
-
-header .nav-area, 
-header .service-area ul  {
+.nav-area {
     display: flex;
+    justify-content: center;
 }
-
-header .service-area ul {
+.nav-area ul {
+    display: flex;
     align-items: center;
 }
-
-header .nav-area {
-    align-items: center;
+.nav-area ul li {
+    
 }
-
 .service-area {
-    align-items: center;
-}
-
-header img {
-    width: 40px;
-    height: auto;
-    margin-right: 25px;
-}
-
-nav ul {
     display: flex;
 }
-
-nav ul li {
-    margin-right: 20px;
+.service-area ul {
+    display: flex;
+}
+.nav-area h1 img {
+    width: 60px;
+    height: auto;
+    display: block;
 }
