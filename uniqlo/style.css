@@ -11,25 +11,40 @@
     
 }
 header {
+    margin-top: 40px;
     display: flex;
     justify-content: space-between;
 }
-.nav-area {
+nav {
     display: flex;
-    justify-content: center;
+    align-items: center;
+
+}
+.nav-area {
+    display: flex;    
 }
 .nav-area ul {
     display: flex;
-    align-items: center;
 }
 .nav-area ul li {
-    
+    margin-left: 40px;
+}
+.nav-area ul li a {
+    color: #000;
+    font-weight: bold;
 }
 .service-area {
     display: flex;
+    align-items: center;
 }
 .service-area ul {
     display: flex;
+}
+.service-area ul li {
+    margin-left: 20px;
+}
+.service-area ul li a {
+    color: #000;
 }
 .nav-area h1 img {
     width: 60px;
