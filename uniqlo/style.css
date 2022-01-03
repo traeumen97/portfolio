@@ -326,3 +326,73 @@ nav {
 .sec07 p:nth-of-type(3) {
     font-size: 1.3em;
 }
+
+.sec08-sns-wrap {display: flex}
+.sec08-sns-wrap > div {
+    flex: 1;
+    height: 490px;
+}
+.sec08-sns-wrap > div img {
+    flex: 1;
+    width: 100%;
+    height: 490px;
+}
+.sns-wrap01 > div:nth-of-type(1) {
+    background: #FFF url('img/instagram/1.jpg') center/cover no-repeat;
+}
+.sns-wrap01 > div:nth-of-type(2) {
+    background: #FFF url('img/instagram/2.jpg') center/cover no-repeat;
+}
+.sns-wrap01 > div:nth-of-type(3) {
+    background: #FFF url('img/instagram/3.jpg') center/cover no-repeat;
+}
+
+.sns-wrap02 > div:nth-of-type(1) {
+    background: #FFF url('img/instagram/4.jpg') center/cover no-repeat;
+}
+.sns-wrap02 > div:nth-of-type(2) {
+    background: #FFF url('img/instagram/5.jpg') center/cover no-repeat;
+}
+.sns-wrap02 > div:nth-of-type(3) {
+    background: #FFF url('img/instagram/6.jpg') center/cover no-repeat;
+}
+
+.sns-wrap03 > div:nth-of-type(1) {
+    background: #FFF url('img/instagram/7.jpg') center/cover no-repeat;
+}
+.sns-wrap03 > div:nth-of-type(2) {
+    background: #FFF url('img/instagram/8.jpg') center/cover no-repeat;
+}
+.sns-wrap03 > div:nth-of-type(3) {
+    background: #FFF url('img/instagram/9.jpg') center/cover no-repeat;
+}
+footer {
+    height: 100px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+footer h1 img {
+    width: 40px;
+    height: auto;
+}
+footer .footer-nav-area {
+    display: flex;
+}
+footer p {
+    display: flex;
+}
+footer ul {
+    display: flex;
+    margin-left: 40px;
+    align-items: center;
+}
+footer ul li {
+    margin-right: 40px;
+}
+footer ul li a {
+    color: #000;
+}
+footer p {
+    font-size: 0.8em;
+}
