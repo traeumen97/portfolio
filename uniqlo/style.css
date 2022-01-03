@@ -367,20 +367,27 @@ nav {
     background: #FFF url('img/instagram/9.jpg') center/cover no-repeat;
 }
 footer {
-    height: 100px;
-    margin-top: 20px;
+    height: 90px;
+    margin-top: 40px;
+}
+.footer-nav {
     display: flex;
     justify-content: space-between;
+}
+footer h1 a {
+    align-items: center;
 }
 footer h1 img {
     width: 40px;
     height: auto;
+    align-items: center;
 }
 footer .footer-nav-area {
     display: flex;
 }
 footer p {
     display: flex;
+    align-items: center;
 }
 footer ul {
     display: flex;
