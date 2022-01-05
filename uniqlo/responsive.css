@@ -1,0 +1,13 @@
+@media screen and (max-width: 768px) { 
+  .home-main {
+    background-position: 100% 40px;
+    background-size: 75%;
+  }
+  
+  .main-title p {
+    text-align: left;
+    margin-top: 24rem;
+    margin-right: 2rem;
+    font-size: 1.8em;
+  }
+}
