@@ -209,7 +209,8 @@ nav {
     bottom: 5%;
 }
 .sec04-right-textwrap {
-    width: 80%; margin: 40px auto 0 auto;
+    width: 80%; margin: 0 auto;
+    padding-top: 40px;
 }
 
 .sec04-left p {color: #FFF;}
@@ -233,7 +234,6 @@ nav {
 }
 
 
-
 .sec05-clothes-wrap > div {
     float: left;
     width: 25%;
@@ -250,6 +250,10 @@ nav {
 }
 .sec05-clothes-wrap > div:nth-of-type(7) {
     background: #F3F4F6 url('img/man-clothes/04.png') center/cover no-repeat;
+}
+
+.sec05-clothes-wrap > div:nth-of-type(8) {
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.03);
 }
 
 .sec05-textwrap p:nth-of-type(1) {
