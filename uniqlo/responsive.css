@@ -1,15 +1,79 @@
 @media screen and (max-width: 768px) { 
+  footer {display: none;}
   .home-main {
-    background-position: 120% 40px;
-    background-size: 75%;
-  }
-  
+    padding-top: 10px;
+    height: 100vh;
+    background-position: 200% 100px;
+    background-size: 90%;
+  }  
   .main-title p {
-    text-align: left;
-    margin-top: 24rem;
-    margin-right: 2rem;
-    font-size: 1.8em;
+    font-size: 1.2em;
+    margin-top: 26rem;
+    margin-right: 0;
+    text-align: center;
+  }
+  nav, .service-area {display: none;}
+
+  .mobile-menu {display: inline;}
+
+  .sec02-wrap {display: block;}
+  .sec02-wrap > div {height: 100vh;}
+
+  .sec02-left {
+    background:#DBC9DF url('img/woman/01.png') 50% 200px/70% no-repeat;
+}
+  .sec02-left, .sec02-center, .sec02-right {
+    width: 100%;
+    height: 100vh;
+  }
+  .sec02-left-textwrap {
+    margin: 0 auto;
+    padding-top: 25px;
+  }
+  .sec02-right p:nth-of-type(1),
+  .sec02-left p:nth-of-type(1) {
+      font-size: 1.4em;
+  }
+  .sec02-right p:nth-of-type(2),
+  .sec02-left p:nth-of-type(2) {
+      font-size: 1.2em;
+  }
+  .sec02-right p:nth-of-type(3),
+  .sec02-left p:nth-of-type(3) {
+      font-size: 1em;
+  }
+  .sec02-right-textwrap {
+    padding-top: 430px;
+  }
+  .sec03-clothes-wrap > div {
+    width: 100%;
+    height: 490px;
+  }
+  .sec03-clothes-wrap .order01  {
+    order: 1;
+  }
+  .sec03-clothes-wrap .order02  {
+    order: 2;
+  }
+  .sec03-clothes-wrap .order03  {
+    order: 3;
+  }
+  .sec03-clothes-wrap .order04  {
+    order: 4;
+  }
+  .sec03-clothes-wrap .order05  {
+    order: 6;
+  }
+  .sec03-clothes-wrap .order06  {
+    order: 5;
+  }
+  .sec03-clothes-wrap .order07  {
+    order: 8;
+  }
+  .sec03-clothes-wrap .order08  {
+    order: 7;
   }
 }
+
 @media screen and (min-width: 768px) { }
 @media screen and (min-width: 768px) and (max-width: 1023px) { }
