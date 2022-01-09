@@ -404,36 +404,3 @@ footer .copyright {
     align-items: center;
     justify-content: center;
 }
-/* .footer-nav {
-    display: flex;
-    justify-content: space-between;
-}
-footer h1 a {
-    align-items: center;
-}
-footer h1 img {
-    width: 40px;
-    height: auto;
-    align-items: center;
-} */
-/* footer .footer-nav-area {
-    display: flex;
-}
-footer p {
-    display: flex;
-    align-items: center;
-}
-footer ul {
-    display: flex;
-    margin-left: 40px;
-    align-items: center;
-}
-footer ul li {
-    margin-right: 40px;
-}
-footer ul li a {
-    color: #000;
-}
-footer p {
-    font-size: 0.8em;
-} */
