@@ -19,7 +19,7 @@ function showSlides(n) {
     slides[i].style.display = "none";
   }
   for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" actice", "");
+    dots[i].className = dots[i].className.replace(" active", "");
   }
   slides[slideIndex - 1].style.display = "block";
   dots[slideIndex - 1].className += " active";
@@ -38,8 +38,8 @@ function showSlides() {
   }
   slideIndex++;
   if (slideIndex > slides.length) {
-    slideIndex = 1;
+    slideIndex = 1
   }
   slides[slideIndex - 1].style.display = "block";
-  setTimeout(showSlides, 7000);
+  setTimeout(showSlides, 10000);
 }
