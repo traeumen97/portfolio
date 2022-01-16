@@ -15,37 +15,65 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap"
-      rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Noto+Serif+KR:wght@200;300;400;500;600;700;900&display=swap" rel="stylesheet">
     <title>FLOS</title>
   </head>
   <body>
+    <header>
+      <div class="inner">
+        <h1>
+          <a href="#">
+            <img src="img/bg/flos-logo-white.svg">
+          </a>
+        </h1>
+        <nav>
+          <ul>
+            <li>
+              <a href="#" target="_self" title="">brand stories</a>
+            </li>
+            <li>
+              <a href="#" target="_self" title="">product</a>
+            </li>
+            <li>
+              <a href="#" target="_self" title="">video</a>
+            </li>
+            <li>
+              <a href="#" target="_self" title="">designers</a>
+            </li>
+            <li>
+              <a href="#" target="_self" title="">store finder</a>
+            </li>
+            <li>
+                <img src="img/bg/menu-icon.svg">
+              </a>
+            </li>
+          </ul>
+        </nav>
+    </div>
+    </header>
     <div class="slideshow-container">
-      <div class="mySlides fade">
-        <img src="img/bg/01.jpg">
-      </div>
-      <div class="mySlides fade">
-        <img src="img/bg/02.jpg">
-      </div>
-      <div class="mySlides fade">
-        <img src="img/bg/03.jpg">
-      </div>
+      <div class="mySlides fade background01"></div>
+      <div class="mySlides fade background02"></div>
+      <div class="mySlides fade background03"></div>
+      <div class="mySlides fade background04"></div>
+      <div class="mySlides fade background05"></div>
       
       <a class="prev" onclick="plusSlides(-1)">
-        <i class="fas fa-chevron-left"></i>
+        <!-- <i class="fas fa-chevron-left"></i> -->
+        <img src="img/bg/left-arrow.png" style="width: 30px; height: auto;">
       </a>
       <a class="next" onclick="plusSlides(1)">
-        <i class="fas fa-chevron-right"></i>
+        <img src="img/bg/right-arrow.png" style="width: 30px; height: auto;">
+        <!-- <i class="fas fa-chevron-right"></i> -->
       </a>
-    </div>
-
-    <br>
-
-    <div class="currentSlides">
-      <span class="dot" onclick="currentSlides(1)"></span>
-      <span class="dot" onclick="currentSlides(2)"></span>
-      <span class="dot" onclick="currentSlides(3)"></span>
+      
+      <div class="currentSlides">
+        <span class="dot" onclick="currentSlides(1)"></span>
+        <span class="dot" onclick="currentSlides(2)"></span>
+        <span class="dot" onclick="currentSlides(3)"></span>
+        <span class="dot" onclick="currentSlides(4)"></span>
+        <span class="dot" onclick="currentSlides(5)"></span>
+      </div>
     </div>
 
     <script src="script.js"></script>
