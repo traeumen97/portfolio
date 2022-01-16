@@ -12,6 +12,8 @@
 
 .inner {width: 90%; margin: 0 auto;}
 
+/* header start */
+
 header div {
   display: flex;
   justify-content: space-between;
@@ -34,20 +36,15 @@ header nav ul li a {
   font-size: 1.2em;
   font-weight: 400;
 }
-header nav ul li img {
-  width: 30px;
+header nav ul li:last-child img {
+  width: 25px;
   height: auto;
+  display: flex;
+  align-items: center;
 }
-/* .mySlides .slogan {
-  position: absolute;
-  top: 20%;
-} 
-.mySlides .slogan p {
-  font-family: 'Noto Serif KR', serif;
-  display: inline-block;
-  color: #fff;
-  font-size: 2.2em;
-} */
+
+/* slide start */
+
 .mySlides {
   display: none;
   width: 100%;
@@ -143,3 +140,6 @@ header nav ul li img {
 .active, .dot:hover {
   background-color: rgba(0, 0, 0, 0.6);
 }
+
+/* brand history start */
+
