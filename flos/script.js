@@ -21,63 +21,53 @@ function currentSlide(n) {
   showSlides(slideIndex = n);
 }
 
-function showSlides(n) {// 1번슬라이드
+function showSlides(n) {
   var i;
   var slides = document.getElementsByClassName("mySlides");
   var dots = document.getElementsByClassName("dot");
-
-  console.log('n : ', n); // 1번슬라이드
-  console.log('slides.length : ', slides.length); // 총슬라이드 개수 : 5
   
-  // 유효한 경우 0~4
-  
-  if (n > slides.length-1) { // 5 > 4
-    // 이 if문이 실행되는 경우는
-    // 마지막 슬라이드에서 오른쪽버튼을 누를때 더 갈 수 없으니까 첫번째 슬라이드로 가도록 바꾸기
+  if (n > slides.length-1) {
     slideIndex = 0; 
   }
   
-  if (n < 0) {  // -1 < 0
-    // 이 if문이 실행되는 경우는
-    // 첫번째 슬라이드에서 왼쪽 버튼을 누를 때 더 갈 수 없으니까 마지막 슬라이드로 가도록 바꾸기
+  if (n < 0) { 
     slideIndex = slides.length - 1; 
   }
 
-  for (i = 0; i < slides.length; i++) {
-    // TODO: 깜빡거리는 이슈 해결하기
-    slides[i].style.display = "none"; // 이 문법이 뭐하는 문법일까? 슬라이드를 아예 없애는 것
+  // for (i = 0; i < slides.length; i++) {
+  //   slides[i].style.display = "block"; 
+  // }
+
+  // 나머지(총4개)를 안보이게 한다 0 1 2 3 4
+  // slides[2].style.display = "none";
+  // slides[3].style.display = "none";
+  // slides[4].style.display = "none";
+  // slides[0].style.display = "none";
+
+  for (i=0; i<slides.length; i++) {
+    // "특정 경우에만" : 현재 슬라이드아닌 경우
+    // slideIndex 얘네 두개가 다를 때 쓰는 연산자가 뭘까..? i
+    // 현재 슬라이드가 아닐때는
+    if (slideIndex !== i) {
+      slides[i].style.display = "none"; 
+    } else {
+      slides[i].style.display = "block"; 
+    }
+    // 현재 슬라이드일때는 block으로 처리하라
   }
 
-  // TODO: 버튼을 눌렀을때 해당 인덱스로 가도록 변경해야한다
-  // TODO: 현재 index에서는 진한 색으로 보이도록 한다.
   for (i = 0; i < dots.length; i++) {
-    // 모든 점을 "dot" (active 모두제거)
     dots[i].className = dots[i].className.replace(" active", "");
   }
 
-  // slides = [첫번째슬라이드DOM, 두번째슬라이드DOM, 세번째, 네번째, 다섯번째];
-  // slideIndex = 2 
-  // slides[2 - 1] = 두번째슬라이드;
-  
-  // slideIndex - 1~5
-  // slides = []
 
-  /**
-   * array 
-   * const num = [1,2,3,4]; 
-   */
-
-  // 첫번째 DOM 꺼냈어 
-  slides[slideIndex].style.display = "block";
-  // 첫번째 점을 꺼냈어 - 클래스
+  // slides[slideIndex].style.display = "block";
   dots[slideIndex].className += " active";
-  // 변경후  "dot active"           변경전 "dot"                       +" active"
-  // dots[slideIndex - 1].className = dots[slideIndex - 1].className + " active";
 }
 
 // 바꾸고싶은것
 // 1. slideIndex 0 부터 시작하면 안되나.... > 해결
-// 2. 깜박거리는거 없앨수 없나..
+// 2. 깜박거리는거 없앨수 없나.. > 어쩔 수 없는 시간차로...알아봐야할듯..
 // 3. 점 눌렀을 때 이동하도록 한다.
 
 // 정리
