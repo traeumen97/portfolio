@@ -154,11 +154,11 @@ header nav ul li:last-child img {
 /* brand history start */
 
 .brand-history {
-  /* height: 150vh; */
-  margin: 200px 0;
+  margin: 150px 0 200px 0;
 }
 
 .brand-history h2 {
+  margin-bottom: 50px;
   text-align: center;
   font-weight: 300;
   font-size: 40px;
@@ -167,78 +167,131 @@ header nav ul li:last-child img {
 .brand-history-cntwrap {
   display: grid;
   grid-template-columns: 1fr 1.5fr 1fr 1.5fr 50px;
-  grid-template-rows: 1.5fr 1fr 1fr 1.2fr ;
-  height: 1000px;
+  grid-template-rows: 1.3fr 0.4fr 0.4fr 0.6fr;
+  padding: 0 235px;
+  height: 1288px;
 }
+
 .brand-history-cntwrap > .with {
   grid-column: 1 / 3;
   grid-row: 1 / 3;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-left: 30px;
+  padding-left: 40px;
   min-height:100%;
   background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/story/01.jpg');
+  background-position: 0% 0%;
   background-size: cover;
   background-repeat: no-repeat;
 }
 .brand-history-cntwrap > .with > h3 {
   margin-bottom: 20px;
-  font-family: 'Noto Serif', serif;
-  font-weight: 400;
+  font-family: 'Noto Serif KR', serif;
+  font-weight: 300;
   color: #fff;
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 .brand-history-cntwrap > .with > p {
   width: 50%;
   color: #fff;
-  font-weight: 400;
+  font-weight: 300;
   line-height: 1.6rem;
 }
 
 .brand-history-cntwrap > .infra {
-  background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/story/02.jpg');
+  background:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('img/story/02.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   grid-column: 3 / 5;
   grid-row: 1 / 3;
-  padding: 50px;
+  padding: 60px 50px;
 }
-
 .brand-history-cntwrap > .infra > h3 {
   margin-bottom: 20px;
-  font-family: 'Noto Serif', serif;
-  font-weight: 400;
+  font-family: 'Noto Serif KR', serif;
+  font-weight: 300;
   text-align: right;
   color: #fff;
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 .brand-history-cntwrap > .infra > p {
   position: relative;
-  right: -20%;
-  width: 80%;
+  right: -35%;
+  width: 65%;
   color: #fff;
-  font-weight: 400;
+  font-weight: 300;
   line-height: 1.6rem;
   text-align: right;
 }
+
 .brand-history-cntwrap > .ontheroad {
-  background-color: green;
   grid-column: 1 / 3;
   grid-row: 3 / 5;
-  /* grid-column: span 1 / -1 */
 }
+
 .brand-history-cntwrap > .overlap {
-  background-color: blue;
+  background: linear-gradient(rgba(0, 0, 0, 0.8),
+  rgba(0, 0, 0, 0.8)), url('img/story/04.jpg'); 
+  background-size: contain;
+  background-position: 110% 0%;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
   grid-column: 3 / 5;
   grid-row: 3 / 5;
+  padding: 60px 50px;
 }
+.brand-history-cntwrap > .overlap > h3 {
+  margin-bottom: 20px;
+  font-family: 'Noto Serif KR', serif;
+  font-weight: 300;
+  text-align: right;
+  color: #fff;
+  font-size: 1.6rem;
+}
+.brand-history-cntwrap > .overlap > p {
+  position: relative;
+  right: -45%;
+  width: 55%;
+  color: #fff;
+  font-weight: 300;
+  line-height: 1.6rem;
+  text-align: right;
+}
+
+
 .brand-history-cntwrap > .light {
-  background-color: purple;
   grid-column: 2 / 4;
   grid-row: 2 / 4;
   z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 100px;
+  padding-left: 50px;
+  background:#fff url('img/story/03.jpg') 87% 0%/contain no-repeat;
 }
+.brand-history-cntwrap > .light > h3 {
+  margin-bottom: 20px;
+  font-family: 'Noto Serif KR', serif;
+  font-weight: 400;
+  color: #191919;
+  font-size: 1.6rem;
+}
+.brand-history-cntwrap > .light > p {
+  width: 65%;
+  color: #191919;
+  font-weight: 400;
+  line-height: 1.6rem;
+}
+.brand-history-cntwrap > .light > a {
+  margin-top: 50px;
+  color: #191919;
+  text-decoration: underline;
+}
+
 .brand-history-cntwrap > .side-title {
   grid-column: span 1 / -1;
   grid-row: 1 / 3;
@@ -248,8 +301,18 @@ header nav ul li:last-child img {
   width: 200px;
   transform-origin: 20px 20px ;
   transform: rotate( 90deg );
-  /* line-height: 100px; */
 }
+.brand-history-cntwrap > .ontheroad > span {
+  display: block;
+  width: 223px;
+  transform-origin: 241px 248px;
+  transform: rotate( -90deg );
+  font-family: 'Noto Serif KR', serif;
+  font-weight: 300;
+  font-size: 1.2rem;
+  color: #aaa;
+}
+
 
 /* .brand-history-cntwrap > .infra {
   background: rgba(0, 0, 0, 0.9) url('img/story/02.jpg') center/cover no-repeat;
