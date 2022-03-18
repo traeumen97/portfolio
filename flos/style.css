@@ -172,7 +172,7 @@ header nav ul li:last-child img {
   height: 1288px;
 }
 
-.brand-history-cntwrap > .with {
+.brand-history-cntwrap > .piero {
   grid-column: 1 / 3;
   grid-row: 1 / 3;
   display: flex;
@@ -185,14 +185,14 @@ header nav ul li:last-child img {
   background-size: cover;
   background-repeat: no-repeat;
 }
-.brand-history-cntwrap > .with > h3 {
+.brand-history-cntwrap > .piero > h3 {
   margin-bottom: 20px;
   font-family: 'Noto Serif KR', serif;
   font-weight: 300;
   color: #fff;
   font-size: 1.8rem;
 }
-.brand-history-cntwrap > .with > p {
+.brand-history-cntwrap > .piero > p {
   width: 50%;
   color: #fff;
   font-weight: 300;
@@ -225,7 +225,7 @@ header nav ul li:last-child img {
   text-align: right;
 }
 
-.brand-history-cntwrap > .ontheroad {
+.brand-history-cntwrap > .left-title {
   grid-column: 1 / 3;
   grid-row: 3 / 5;
 }
