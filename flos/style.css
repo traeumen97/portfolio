@@ -308,7 +308,7 @@ header nav ul li:last-child img {
   display: block;
   border-left: 1.5px solid #aaa;
   width: 0.5px;
-  height: 500px;
+  height: 450px;
   transform-origin: 70px -75px;
   transform: rotate(-90deg);
 }
