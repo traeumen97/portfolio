@@ -385,6 +385,7 @@ header nav ul li:last-child img {
 
 /* designers start */
 
+/* designers 공통 */
 .designers {
   margin: 150px 0 0 0;
 }
@@ -395,97 +396,21 @@ header nav ul li:last-child img {
   font-weight: 300;
   font-size: 40px;
 }
+.designers-wrap { width: 50%; margin: 0 auto; }
+.designers-wrap > div { position: relative; }
+.designers-txt-wrap { position: absolute; }
+.designers-txt-wrap > p:nth-of-type(1) 
+{
+  font-size: 1.6rem;
+  margin-bottom: 20px;
+  font-family: 'Noto Serif KR', serif;
+}
+.designers-txt-wrap > p:nth-of-type(2) { font-size: 1.1rem; font-weight: 300; }
 
-/* .designers-wrap {
-  padding: 0 100px;
-}
-
-.designers-wrap > .designers-michael {
-  position: relative;
-  width: 70%;
-}
-.designers-wrap > .designers-michael > .designers-txt-wrap {
-  width: 40%;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-}
-.designers-wrap > .designers-michael > img {
-  display: block;
-  margin-left: auto;
-}
-
-.designers-wrap > div > img {
-  width: 400px;
-}
-
-.designers-wrap > .designers-rodolfo {
-  position: relative;
-  width: 70%;
-  transform: translateY(-30%);
-}
-.designers-wrap > .designers-rodolfo > .designers-txt-wrap {
-  width: 40%;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-}
-.designers-wrap > .designers-rodolfo > img {
-  display: block;
-  margin-left: auto;
-}
-
-
-
-.designers-wrap > .designers-antonio {
-  position: relative;
-  width: 70%;
-  margin-left: auto;
-  transform: translateY(-10%);
-}
-.designers-wrap > .designers-antonio > .designers-txt-wrap {
-  width: 40%;
-  position: absolute;
-  top: 50%;
-  right: 0;
-  transform: translateY(-50%);
-  text-align: right;
-}
-.designers-wrap > .designers-antonio > img {
-  display: block;
-  margin-right: auto;
-}
-
-
-
-.designers-wrap > .designers-edward {
-  position: relative;
-  width: 70%;
-  margin-left: auto;
-  transform: translateY(-50%);
-}
-.designers-wrap > .designers-edward > .designers-txt-wrap {
-  width: 40%;
-  position: absolute;
-  top: 50%;
-  right: 0;
-  transform: translateY(-50%);
-  text-align: right;
-}
-.designers-wrap > .designers-edward > img {
-  display: block;
-  margin-right: auto;
-} */
-
-
-.designers-wrap {
-  width: 50%;
-  margin: 0 auto;
-}
+/* designers 공통 finish */
 
 .designers-wrap > .designers-michael {
   width: 60%;
-  position: relative;
 }
 
 .designers-michael > .michael-img {
@@ -495,27 +420,17 @@ header nav ul li:last-child img {
   margin-left:  20%;
   background: url('img/designer/01.jpg') 0% 55%/60% no-repeat;
 }
+
 .designers-michael > .designers-txt-wrap {
-  position: absolute;
   top: 50%;
   transform: translateY(-50%);
   width: 40%;
-}
-.designers-michael > .designers-txt-wrap > p:nth-of-type(1) {
-  font-size: 1.6rem;
-  margin-bottom: 20px;
-  font-family: 'Noto Serif KR', serif;
-}
-.designers-michael > .designers-txt-wrap > p:nth-of-type(2) {
-  font-size: 1.1rem;
-  font-weight: 300;
 }
 
 
 .designers-wrap > .designers-antonio {
   width: 80%;
   margin-left: auto;
-  position: relative;
   transform: translateY(-25%);
 }
 
@@ -528,26 +443,15 @@ header nav ul li:last-child img {
   background: url('img/designer/02.jpg') top right/cover no-repeat;
 }
 .designers-antonio > .designers-txt-wrap {
-  position: absolute;
   top: 20%;
   right: 0;
   width: 25%;
   text-align: right;
 }
-.designers-antonio > .designers-txt-wrap > p:nth-of-type(1) {
-  font-size: 1.6rem;
-  margin-bottom: 20px;
-  font-family: 'Noto Serif KR', serif;
-}
-.designers-antonio > .designers-txt-wrap > p:nth-of-type(2) {
-  font-size: 1.1rem;
-  font-weight: 300;
-}
 
 
 .designers-wrap > .designers-rodolfo {
   width: 60%;
-  position: relative;
   transform: translateY(-75%);
 }
 
@@ -559,26 +463,15 @@ header nav ul li:last-child img {
   background: url('img/designer/03.jpg') top center/200% no-repeat;
 }
 .designers-rodolfo > .designers-txt-wrap {
-  position: absolute;
   top: 50%;
   transform: translateY(-50%);
   width: 48%;
-}
-.designers-rodolfo > .designers-txt-wrap > p:nth-of-type(1) {
-  font-size: 1.6rem;
-  margin-bottom: 20px;
-  font-family: 'Noto Serif KR', serif;
-}
-.designers-rodolfo > .designers-txt-wrap > p:nth-of-type(2) {
-  font-size: 1.1rem;
-  font-weight: 300;
 }
 
 
 .designers-wrap > .designers-edward {
   width: 95%;
   margin-left: auto;
-  position: relative;
   transform: translateY(-90%);
 }
 
@@ -591,31 +484,12 @@ header nav ul li:last-child img {
   background: url('img/designer/04.jpg') top right/cover no-repeat;
 }
 .designers-edward > .designers-txt-wrap {
-  position: absolute;
   top: 20%;
   right: 0;
-  width: 40%;
+  width: 31%;
   text-align: right;
 }
-.designers-edward > .designers-txt-wrap > p:nth-of-type(1) {
-  font-size: 1.6rem;
-  margin-bottom: 20px;
-  font-family: 'Noto Serif KR', serif;
-}
 .designers-edward > .designers-txt-wrap > p:nth-of-type(2) {
-  font-size: 1.1rem;
-  font-weight: 300;
+  width: 90%;
+  margin-left: auto;
 }
-
-/* .designers-antonio > .antonio-img {
-  background: url('img/designer/02.jpg') center center/cover no-repeat;
-}
-.designers-rodolfo > .rodolfo-img {
-  background: url('img/designer/03.jpg') center center/cover no-repeat;
-}
-.designers-edward > .edward-img {
-  background: url('img/designer/04.jpg') center center/cover no-repeat;
-} */
-
-
-/* pc에서 깨지지 않게만 min-width 설정 하는거까지만 */
