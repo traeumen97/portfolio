@@ -172,6 +172,16 @@ header nav ul li:last-child img {
   height: 1288px;
 }
 
+.brand-history-cntwrap > div > h3 {
+  margin-bottom: 20px;
+  font-family: 'Noto Serif KR', serif;
+  font-weight: 300;
+  line-height: 1.6rem;
+}
+.brand-history-cntwrap > div > p {
+  line-height: 1.6rem;
+}
+
 .brand-history-cntwrap > .piero {
   grid-column: 1 / 3;
   grid-row: 1 / 3;
@@ -186,9 +196,6 @@ header nav ul li:last-child img {
   background-repeat: no-repeat;
 }
 .brand-history-cntwrap > .piero > h3 {
-  margin-bottom: 20px;
-  font-family: 'Noto Serif KR', serif;
-  font-weight: 300;
   color: #fff;
   font-size: 1.8rem;
 }
@@ -196,7 +203,6 @@ header nav ul li:last-child img {
   width: 50%;
   color: #fff;
   font-weight: 300;
-  line-height: 1.6rem;
 }
 
 .brand-history-cntwrap > .infra {
@@ -208,9 +214,6 @@ header nav ul li:last-child img {
   padding: 60px 50px;
 }
 .brand-history-cntwrap > .infra > h3 {
-  margin-bottom: 20px;
-  font-family: 'Noto Serif KR', serif;
-  font-weight: 300;
   text-align: right;
   color: #fff;
   font-size: 1.8rem;
@@ -221,7 +224,6 @@ header nav ul li:last-child img {
   width: 65%;
   color: #fff;
   font-weight: 300;
-  line-height: 1.6rem;
   text-align: right;
 }
 
@@ -244,9 +246,6 @@ header nav ul li:last-child img {
   padding: 60px 50px;
 }
 .brand-history-cntwrap > .overlap > h3 {
-  margin-bottom: 20px;
-  font-family: 'Noto Serif KR', serif;
-  font-weight: 300;
   text-align: right;
   color: #fff;
   font-size: 1.6rem;
@@ -257,7 +256,6 @@ header nav ul li:last-child img {
   width: 55%;
   color: #fff;
   font-weight: 300;
-  line-height: 1.6rem;
   text-align: right;
 }
 
@@ -274,8 +272,6 @@ header nav ul li:last-child img {
   background:#fff url('img/story/03.jpg') 87% 0%/contain no-repeat;
 }
 .brand-history-cntwrap > .light > h3 {
-  margin-bottom: 20px;
-  font-family: 'Noto Serif KR', serif;
   font-weight: 400;
   color: #191919;
   font-size: 1.6rem;
@@ -284,7 +280,6 @@ header nav ul li:last-child img {
   width: 65%;
   color: #191919;
   font-weight: 400;
-  line-height: 1.6rem;
 }
 .brand-history-cntwrap > .light > a {
   margin-top: 50px;
@@ -296,84 +291,33 @@ header nav ul li:last-child img {
   grid-column: span 1 / -1;
   grid-row: 1 / 3;
 }
-.brand-history-cntwrap > .side-title > span {
+.brand-history-cntwrap > div > span {
   display: block;
-  width: 200px;
-  transform-origin: 20px 20px ;
-  transform: rotate( 90deg );
-}
-.brand-history-cntwrap > .ontheroad > span {
-  display: block;
-  width: 223px;
-  transform-origin: 241px 248px;
-  transform: rotate( -90deg );
   font-family: 'Noto Serif KR', serif;
   font-weight: 300;
-  font-size: 1.2rem;
   color: #aaa;
 }
 
-
-/* .brand-history-cntwrap > .infra {
-  background: rgba(0, 0, 0, 0.9) url('img/story/02.jpg') center/cover no-repeat;
-} */
-/* .brand-history-cntwrap > div:nth-of-type(1) {
-  grid-column: 1/2;
-  grid-row: 1/2;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  float: left;
-  padding-left: 30px;
-  width: 50%;
-  height: 800px;
-  background: rgba(0, 0, 0, 0.7) url('img/story/01.jpg') top center/cover no-repeat;
-  background-color: #ccc;
-  background-blend-mode: darken;
+.brand-history-cntwrap > .side-title > span {
+  width: 200px;
+  transform-origin: 15px 15px ;
+  transform: rotate( 90deg );
+  font-size: 1rem;
 }
-.brand-history-cntwrap > div:nth-of-type(1) > h3 {
-  margin-bottom: 20px;
-  font-family: 'Noto Serif', serif;
-  font-weight: 400;
-  color: #fff;
-  font-size: 2rem;
+.brand-history-cntwrap > .side-title .side-title-line {
+  display: block;
+  border-left: 1.5px solid #aaa;
+  width: 0.5px;
+  height: 500px;
+  transform-origin: 70px -75px;
+  transform: rotate(-90deg);
 }
-.brand-history-cntwrap > div:nth-of-type(1) > p {
-  width: 50%;
-  color: #fff;
-  font-weight: 400;
-  line-height: 1.6rem;
+.brand-history-cntwrap > .left-title > span {
+  width: 223px;
+  transform-origin: 241px 248px;
+  transform: rotate( -90deg );
+  font-size: 1.2rem;
 }
-
-.brand-history-cntwrap > div:nth-of-type(2) {
-  width: 50%;
-  background-color: #aaa;
-  height: 800px;
-  float: right;
-  background: rgba(0, 0, 0, 0.9) url('img/story/02.jpg') center/cover no-repeat;
-}
-.brand-history-cntwrap > div:nth-of-type(4) {
-  width: 40%;
-  height: 364px;
-  position: absolute;
-  top: 600px;
-  left: 23%;
-  background-color: #bbb;
-  background: #fff url('img/story/03.jpg') 80%/contain no-repeat;
-}
-.brand-history-cntwrap > div:nth-of-type(3) {
-  width: 40%;
-  height: 450px;
-  float: right;
-  background-color: lightcoral;
-  background: #fff url('img/story/04.jpg') 98%/contain no-repeat;
-}
-.brand-history-cntwrap > div > div {
-  width: 100%;
-  height: 100%;
-  background: #000;
-  opacity: 0.5;
-} */
 
 /* brand history end */
 
