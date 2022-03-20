@@ -346,7 +346,7 @@ header nav ul li:last-child img {
 }
 .product-wrap > section {
   display: flex;
-  height: 70vh;
+  min-height: 70vh;
   margin-bottom: 150px;
 }
 .product-wrap > section > div {
@@ -372,16 +372,18 @@ header nav ul li:last-child img {
   transform-origin: -80px -40px;
 }
 .floor-img > span {
-  transform: rotate(26deg);
-  transform-origin: 800px 1310px;
+  transform: rotate(90deg);
+  transform-origin: 260px 0px;
+  right: 0;
 }
 .wall-ceiling-img > span {
   transform: rotate(-90deg);
   transform-origin: -20px 0px;
 }
 .suspension-img > span {
-  transform: rotate(21deg);
-  transform-origin: 180px 1780px;
+  transform: rotate(90deg);
+  transform-origin: 240px 75px;
+  right: 0;
 }
 
 .product-img > span {
@@ -430,6 +432,7 @@ header nav ul li:last-child img {
   font-weight: 300;
   color: #191919;
   text-decoration: underline;
+  align-self: center;
 }
 .product-txt > span {
   position: absolute;
