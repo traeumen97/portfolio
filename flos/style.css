@@ -559,6 +559,106 @@ li{list-style:none;}
 /* inspiration end */
 
 
+/* projects start */
+.projects {
+  margin-top: 150px;
+}
+
+.projects h2{
+  margin-bottom: 50px;
+  text-align: center;
+  font-weight: 300;
+  font-size: 4rem;
+}
+
+.projects > .slider-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.projects .slider {
+  display: flex;
+  align-items: center;
+  max-width: 50rem;
+}
+
+.projects .previous-button,
+.projects .next-button {
+  width: 30px; 
+  height: auto;
+  text-align: center;
+  background-color: pink;
+}
+
+.projects .current-slide {
+  position: relative;  
+  overflow: visible;
+  order: 2;
+  transition: opacity 0.4s ease-in;
+}
+
+.projects .previous-slide {
+  overflow: hidden;
+  order: 1;
+  opacity: 0.5;
+  transition: opacity 0.4s ease-out;
+} 
+.projects .next-slide {
+  overflow: hidden;
+  order: 3;
+  opacity: 0.5;
+  transition: opacity 0.4s ease-out;
+}
+
+.projects .hidden-slide {
+  display: none;
+  order: 4;
+}
+
+.projects .current-slide > img {
+  border: 1px solid pink;
+  width: 30rem;
+}
+
+.projects .previous-slide > img, 
+.projects .next-slide > img {
+  border: 1px solid pink;
+  width: 20rem;
+}
+
+.projects .current-slide > .slide-description {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+
+.projects .next-slide > .slide-description {
+  text-align: right;
+}
+
+.projects > .indicators {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin-top: 30px;
+}
+
+.projects .indicator {
+  display: inline-block;
+  height: 6px;
+  width: 6px;
+  margin: 0 2px;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+  transition: background-color 0.5s ease;
+}
+
+.projects .selected {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
 /* designers start */
 
 /* designers 공통 */
