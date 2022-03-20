@@ -1,0 +1,49 @@
+*{margin:0; padding:0;}
+li{list-style:none;}
+
+.inspiration {
+	position: relative;
+	width: 1920px;
+	margin: 0 auto;
+}
+.inspiration .slide_wrapper{
+	position: relative;
+	width: 1520px;
+	margin: 0 auto;
+	height: 500px;
+	overflow:hidden;
+	z-index: 0;
+}
+.inspiration .slides{
+	position: absolute;
+	left:0; top:0;	
+}
+.inspiration .slides.animated{
+	transition: 0.5s ease-out;
+}
+.inspiration .slides li{
+	width: 500px;
+	height: 500px;
+	background:#ccc;
+	float:left;
+}
+.inspiration .slides li:not(:last-child){	
+	margin-right: 10px;
+}
+
+.inspiration .controls img {
+	position: absolute;
+	width: 70px;
+	height: auto;
+	padding: 30px 0;
+}
+.inspiration .prev img {
+	top: 45%;
+	left: 0;
+	transform: rotate(-180deg);
+	
+}
+.inspiration .next img {
+	top: 45%;
+	right: 0;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive-mobile.css">
+    <link rel="stylesheet" href="responsive-tablet.css">
+
+    <link rel="stylesheet" href="script.js">
+
+    <title>FLOS</title>
+  </head>
+  <body>
+    <div class="main">
+      <div class="wrap">
+        <div class="cnt1"></div>
+        <br class="clear">
+        <div class="cnt2"></div>
+      </div>
+    </div>
+  </body>
+  <style>
+    .clear {
+      clear: both;
+    }
+    .wrap {
+      position: relative;
+    }
+    .cnt1 {
+      width: 100px;
+      height: 200px;
+      background-color: aqua;
+      position: absolute;
+      top: 0;
+      z-index: -999;
+      overflow: hidden;
+      float: left;
+    }
+    .cnt2 {
+      width: 100px;
+      height: 100px;
+      background-color: red;
+      float: left;
+    }
+  </style>
+</html>
