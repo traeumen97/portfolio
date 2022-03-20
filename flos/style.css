@@ -9,6 +9,9 @@
   /* white-space: pre; */
   /* font-family: 'Roboto', sans-serif; */
 }
+body {
+  min-width: 1440px;
+}
 .clear {clear: both;}
 
 .hide { display: none; }
@@ -581,15 +584,17 @@ li{list-style:none;}
 .projects .slider {
   display: flex;
   align-items: center;
-  max-width: 50rem;
+  max-width: 80rem;
 }
 
 .projects .previous-button,
 .projects .next-button {
-  width: 30px; 
+  width: 45px; 
   height: auto;
   text-align: center;
-  background-color: pink;
+}
+.projects .previous-button {
+  transform: rotate(-180deg);
 }
 
 .projects .current-slide {
@@ -618,24 +623,32 @@ li{list-style:none;}
 }
 
 .projects .current-slide > img {
-  border: 1px solid pink;
   width: 30rem;
 }
 
 .projects .previous-slide > img, 
 .projects .next-slide > img {
-  border: 1px solid pink;
   width: 20rem;
 }
 
+.projects .previous-slide > .slide-description {
+  font-size: 0.8rem;
+}
 .projects .current-slide > .slide-description {
   position: absolute;
   bottom: 20px;
   left: 20px;
+  color: #fff;
+  font-size: 0.8rem;
 }
 
 .projects .next-slide > .slide-description {
   text-align: right;
+  font-size: 0.8rem;
+}
+
+.slide-description > span {
+  display: block;
 }
 
 .projects > .indicators {
