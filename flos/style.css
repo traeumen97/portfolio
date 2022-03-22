@@ -100,7 +100,7 @@ header nav ul li:last-child img {
 .mySlides p {
   text-align: center;
   color: rgba(255, 255, 255, 0.7);
-  font-size: 2rem;
+  font-size: 3.5rem;
   font-family: 'Noto Serif KR', serif;
 }
 .background01 {
@@ -825,4 +825,20 @@ li{list-style:none;}
 .designers-edward > .designers-txt-wrap > p:nth-of-type(2) {
   width: 90%;
   margin-left: auto;
+}
+
+/* footer start */
+
+footer {
+  transform: translateY(-100px);
+}
+.footer-inner {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-inner h1 img {
+  width: 100px;
 }

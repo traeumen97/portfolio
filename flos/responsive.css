@@ -15,6 +15,9 @@
   header h1 a img {
     width: 80px;
   }
+  .mySlides p {
+    font-size: 2rem;
+  }
 
   /* brand history start */
   .brand-history > h2 {font-size: 3rem;}
