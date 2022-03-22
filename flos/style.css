@@ -10,7 +10,7 @@
   /* font-family: 'Roboto', sans-serif; */
 }
 body {
-  min-width: 1440px;
+  /* min-width: 1440px; */
 }
 .clear {clear: both;}
 
@@ -20,8 +20,13 @@ body {
 
 header {
   position: absolute;
-  top: 0;
+  z-index: 1;
   width: 100%;
+  top: 0;
+}
+header nav {
+  display: flex;
+  align-items: center;
 }
 header div {
   display: flex;
@@ -40,10 +45,13 @@ header nav ul li {
   display: flex;
   margin-left: 80px;
 }
+header nav ul li:last-child {
+  display: none;
+}
 header nav ul li a {
   color: #fff;
   font-size: 1.2em;
-  font-weight: 400;
+  font-weight: 300;
 }
 header nav ul li:last-child img {
   width: 25px;
@@ -62,21 +70,53 @@ header nav ul li:last-child img {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  position: relative;
+}
+.myslides-txtwrap {
+  position: absolute;
+}
+.background01 > .myslides-txtwrap {
+  top: 45%;
+  right: 10%;
+}
+.background02 > .myslides-txtwrap {
+  top: 45%;
+  right: 10%;
+}
+.background03 > .myslides-txtwrap {
+  top: 60%;
+  left: 7%;
+}
+.background04 > .myslides-txtwrap {
+  top: 45%;
+  left: 8%;
+}
+.background05 > .myslides-txtwrap {
+  top: 45%;
+  left: 50%;
+  transform: translateX(-50%);
+
+}
+.mySlides p {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 2rem;
+  font-family: 'Noto Serif KR', serif;
 }
 .background01 {
-  background-image: url('img/bg/01.png');
+  background-image: url('img/bg/01.jpg');
 }
 .background02 {
-  background-image: url('img/bg/02.png');
+  background-image: url('img/bg/02.jpg');
 }
 .background03 {
-  background-image: url('img/bg/03.png');
+  background-image: url('img/bg/03.jpg');
 }
 .background04 {
-  background-image: url('img/bg/04.png');
+  background-image: url('img/bg/04.jpg');
 }
 .background05 {
-  background-image: url('img/bg/05.png');
+  background-image: url('img/bg/05.jpg');
 }
 
 /* .fade {
@@ -443,7 +483,7 @@ header nav ul li:last-child img {
   font-family: 'Merriweather', serif;
   font-size: 11em;
   color: transparent;
-  -webkit-text-stroke: 0.7px #eaeaea;
+  -webkit-text-stroke: 0.7px #f3f3f3;
 }
 .suspension-txt > span {
   top: 45%;
@@ -488,6 +528,7 @@ header nav ul li:last-child img {
   color: #fff;
 }
 .video-txtwrap > h3 {
+  font-family: 'Noto Serif KR', serif;
   font-size: 3rem;
 }
 .video-txtwrap > p {
