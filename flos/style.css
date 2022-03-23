@@ -827,10 +827,77 @@ li{list-style:none;}
   margin-left: auto;
 }
 
+/* store finder start */
+
+.store-finder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(-100px);
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: #fff url('img/store/storefinder.jpg') top center/cover no-repeat;
+}
+.store-finder h2 {
+  margin-bottom: 50px;
+  text-align: center;
+  font-weight: 300;
+  font-size: 4rem;
+}
+.store-finder-wrap  {
+  width: 50%;
+  margin-top: 7%;
+}
+.store-finder-wrap label {
+  display: block;
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 3rem;
+  font-weight: 200;
+  text-align: center;
+}
+.store-finder-wrap .find-btn {
+  display: block;
+  margin: 30px auto;
+  padding: 5px 15px;
+  background-color: transparent;
+  border: 1px solid #191919;
+  color: #191919;
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+.search-wrap {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #191919;
+}
+.search-wrap input {
+  width: 80%;
+  background-color: transparent;
+  border: none;
+  font-size: 2rem;  
+}
+.search-wrap input:focus {
+  outline: none;
+}
+.search-wrap img {
+  width: 30px;
+}
+.search-wrap button {
+  border: transparent;
+  background-color: transparent;
+}
+
+/* store finder end */
+
 /* footer start */
 
 footer {
-  transform: translateY(-100px);
+  transform: translateY(-50px);
 }
 .footer-inner {
   width: 80%;
