@@ -60,6 +60,8 @@ header nav ul li:last-child img {
   align-items: center;
 }
 
+.contentsArea { width: 100vw; }
+
 /* slide start */
 
 .mySlides {
