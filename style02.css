@@ -3,7 +3,7 @@
   margin: 0;
   list-style: none;
   box-sizing: border-box;
-  text-decoration: none;
+  /* text-decoration: none; */
   font-family: 'Noto Sans KR', sans-serif;
   color: #191919;
 }
@@ -62,7 +62,7 @@ section div h2 {
   margin-top: 5%;
 }
 
-.skill-txt, .work-ex-txt {
+.skill-txt, .work-ex-txt, .skills-wrap {
   width: 100%;
   margin-top: 15px;
   background-color: #fff;
@@ -133,6 +133,49 @@ section .work-ex-txt h3 {
 }
 .education-right {
   width: 49%;
+}
+
+.skills-wrap {
+  display: flex;
+  justify-content: space-between;
+  padding: 3% 5%;
+  /* border: 1px solid black; */
+}
+.skills-wrap .skills-left-wrap {
+  width: 45%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 1px solid black; */
+}
+.skills-wrap .skills-right-wrap {
+  width: 45%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 1px solid black; */
+}
+.skills-wrap .skills-graph {
+  position: relative;
+  width: 450px;
+  height: 7px;
+  background-color: #e9e9e9;
+}
+.skills-wrap .skills-graph .skills-graph-color {
+  position: absolute;
+  width: 10px;
+  height: 7px;
+  background-color: #85B4D8;
+}
+.skills-wrap .skills-graph .skills-graph-color:hover {
+  transform-origin: 0;
+  transform: scaleX(40);
+  transition: all ease-out 1s;
+}
+
+.skills-txt h3 {
+  font-size: 1rem;
+  font-weight: normal;
 }
 
 footer .copyright {
