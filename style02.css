@@ -62,7 +62,7 @@ section div h2 {
   margin-top: 5%;
 }
 
-.skill-txt, .work-ex-txt, .skills-wrap, .project-txt, .certification-txt {
+.skill-txt, .work-ex-txt, .skills-wrap, .project-txt, .certificate-txt {
   width: 100%;
   margin-top: 15px;
   background-color: #fff;
@@ -136,17 +136,17 @@ section .work-ex-txt h3 {
 }
 
 
-.certification-txt {
+.certificate-txt {
   display: flex;
   /* justify-content: space-around; */
 }
-.certification-txt p:nth-of-type(1) {
+.certificate-txt p:nth-of-type(1) {
   margin-bottom: 10px;
 }
-.certification-date {
+.certificate-date {
   margin-right: 5%;
 }
-.certification-date p {
+.certificate-date p {
   color: #888;
 }
 
