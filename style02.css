@@ -3,6 +3,7 @@
   margin: 0;
   list-style: none;
   box-sizing: border-box;
+  text-decoration: none;
   font-family: 'Noto Sans KR', sans-serif;
   color: #191919;
 }
@@ -61,7 +62,7 @@ section div h2 {
   margin-top: 5%;
 }
 
-.skill-txt, .work-ex-txt, .skills-wrap, .project-txt, .certificate-txt {
+.skill-txt, .work-ex-txt, .certificate-txt {
   width: 100%;
   margin-top: 15px;
   background-color: #fff;
@@ -134,111 +135,10 @@ section .work-ex-txt h3 {
   width: 49%;
 }
 
-
-.certificate-txt {
-  display: flex;
-  /* justify-content: space-around; */
-}
-.certificate-txt p:nth-of-type(1) {
-  margin-bottom: 10px;
-}
-.certificate-date {
-  margin-right: 5%;
-}
-.certificate-date p {
-  color: #888;
-}
-
-
-.skills-wrap {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 3% 5%;
-}
-.skills-wrap > div {
-  width: 45%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-.skills-wrap > div > div.skills-rowwrap {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 10px;
-}
-
-.skills-wrap .skills-graph {
-  position: relative;
-  width: 350px;
-  height: 7px;
-  background-color: #e9e9e9;
-  border-radius: 2px;
-  -webkit-border-radius: 2px;
-  -moz-border-radius: 2px;
-}
-.skills-wrap .skills-graph .skills-graph-color {
-  position: absolute;
-  width: 100%;
-  height: 7px;
-  background-color: #85B4D8;
-  border-radius: 2px;
-  -webkit-border-radius: 2px;
-  -moz-border-radius: 2px;
-}
-
-.skills-txt h3 {
-  font-size: 1rem;
-  font-weight: normal;
-}
-
-/* scroll css start */
-
-.js-scroll {
-  opacity: 0;
-  transform: scaleX(0);
-  transform-origin: 0;
-  transition: 1s;
-  transition-timing-function: linear;
-}
-
-.js-scroll.scrolled {
-  opacity: 1;
-  transform-origin: 0;
-  transform: scaleX(1);
-}
-
-.skills-left-wrap .skills-rowwrap:nth-of-type(3) .skills-graph-color.scrolled {
-  transform: scaleX(0.8);
-}
-
-.skills-left-wrap .skills-rowwrap:nth-of-type(5) .skills-graph-color.scrolled,
-.skills-left-wrap .skills-rowwrap:nth-of-type(6) .skills-graph-color.scrolled {
-  transform: scaleX(0.4);
-}
-
-
-/* scroll css end */
-
-.project h3 {
-  font-size: 1rem;
-  font-weight: normal;
-  margin-top: 40px;
-}
-.project h3 b {
-  font-size: 1.1rem;
-  color: #85B4D8;
-  margin-right: 5px;
-}
-.project a {
-  font-size: 0.9rem;
-  margin-bottom: 5px;
-}
-
 footer .copyright {
   margin-top: 5%;
   text-align: center;
   font-size: 0.8rem;
   color: #ccc;
 }
+
