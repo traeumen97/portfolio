@@ -114,7 +114,7 @@ section .work-ex-txt h3 {
 }
 .education > div > div {
   background-color: #fff;
-  padding: 2%;
+  padding: 3%;
 }
 .education-txtwrap > div > h3 {
   margin-bottom: 10px;
@@ -241,4 +241,88 @@ footer .copyright {
   text-align: center;
   font-size: 0.8rem;
   color: #ccc;
+}
+
+/* mobile */
+
+@media (max-width: 768px) {
+  header {
+    display: block;
+  }
+  header .info p:nth-of-type(1) {
+    font-size: 3rem;
+  }
+  header .contact {
+    margin: 10% 0;
+  }
+  header .contact p, header .contact a {
+    text-align: left;
+  } 
+
+  .education > div {
+    display: block;
+  }
+  .education-left, .education-right {
+    width: 100%;
+    margin-top: 3%;
+  }
+  
+  .skills-wrap {
+    flex-direction: column;
+    padding: 8% 5%;
+  }
+  .skills-wrap > div {
+    width: 80%;
+  }
+  .skills-wrap > div > div.skills-rowwrap {
+    display: block;
+    margin-bottom: 20px;
+  }
+  .skills-wrap .skills-graph {
+    width: 100%;
+  }
+  .skills-wrap .skills-txt {
+    margin-bottom: 10px;
+  }
+  .project {
+    word-break: break-all;
+  }
+}
+
+/* tablet */
+@media screen and (min-width: 321px) and (max-width: 1200px) {
+  header {
+    display: block;
+  }
+  header .contact {
+    margin: 8% 0;
+  }
+  header .contact p:nth-of-type(1) {
+    margin-bottom: 20px;
+  }
+  header .contact p, header .contact a {
+    text-align: left;
+  } 
+
+  .skills-wrap {
+    flex-direction: column;
+    padding: 8% 5%;
+  }
+  .skills-wrap > div {
+    width: 80%;
+  }
+  .skills-wrap > div > div.skills-rowwrap {
+    display: block;
+    margin-bottom: 20px;
+  }
+  .skills-wrap .skills-graph {
+    width: 100%;
+  }
+  .skills-wrap .skills-txt {
+    margin-bottom: 10px;
+  }
+
+  .skill-txt, .work-ex-txt, .project-txt, .certificate-txt, .education-left, .education-right {
+    padding: 5%;
+  }
 }
