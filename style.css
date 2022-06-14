@@ -3,7 +3,6 @@
   margin: 0;
   list-style: none;
   box-sizing: border-box;
-  /* text-decoration: none; */
   font-family: 'Noto Sans KR', sans-serif;
   color: #191919;
 }
@@ -243,4 +242,3 @@ footer .copyright {
   font-size: 0.8rem;
   color: #ccc;
 }
-
