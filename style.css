@@ -210,12 +210,16 @@ section .work-ex-txt h3 {
 }
 
 .skills-left-wrap .skills-rowwrap:nth-of-type(3) .skills-graph-color.scrolled {
-  transform: scaleX(0.8);
+  transform: scaleX(0.7);
+}
+
+.skills-left-wrap .skills-rowwrap:nth-of-type(4) .skills-graph-color.scrolled {
+  transform: scaleX(0.7);
 }
 
 .skills-left-wrap .skills-rowwrap:nth-of-type(5) .skills-graph-color.scrolled,
 .skills-left-wrap .skills-rowwrap:nth-of-type(6) .skills-graph-color.scrolled {
-  transform: scaleX(0.4);
+  transform: scaleX(0.5);
 }
 
 
