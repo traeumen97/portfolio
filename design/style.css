@@ -32,26 +32,33 @@
 .index .index-cnt01 > div {
   width: 100%;
   height: 400px;
-  background: #DBC9DF url(img/index-uniqlo.jpg) center/100% no-repeat;
+  background: #DBC9DF url(img/index-uniqlo.jpg) center/cover no-repeat;
 }
 .index .index-cnt02 > div {
   width: 100%;
   height: 400px;
-  background: #DBC9DF url(img/index-flos.jpg) center/100% no-repeat;
+  background: #DBC9DF url(img/index-flos.jpg) center/cover no-repeat;
 }
 .index .index-cnt03 > div {
   width: 100%;
   height: 400px;
-  background: #DBC9DF url(img/index-mapps.jpg) center/100% no-repeat;
+  background: #DBC9DF url(img/index-mapps.jpg) center/cover no-repeat;
 }
 .index .index-cnt04 > div {
   width: 100%;
   height: 400px;
-  background: #DBC9DF url(img/index-infographic.jpg) center/100% no-repeat;
+  background: #DBC9DF url(img/index-infographic.jpg) center/cover no-repeat;
 }
 
 .contents-img img {
   display: block;
   width: 100vw;
   height: auto;
+}
+
+footer .copyright {
+  margin-bottom: 3%;
+  text-align: center;
+  font-size: 0.8rem;
+  color: #ccc;
 }
